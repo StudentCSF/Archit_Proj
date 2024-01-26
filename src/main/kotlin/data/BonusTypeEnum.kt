@@ -1,4 +1,4 @@
-package model
+package data
 
 enum class BonusTypeEnum {
     EXTRA_LIFE,
