@@ -30,7 +30,7 @@ class GameService(
     private val firedAmmosKinematics: MutableList<KinematicsData>,
     private val firedAmmosDamages: MutableList<AmmoDamages>,
 
-    private val transition: Transition,
+    private val transitionService: TransitionService,
     private val characterDefenseService: CharacterDefenseService,
     private val ammoDamagesService: AmmoDamagesService,
     private val characterLookingService: CharacterLookingService,

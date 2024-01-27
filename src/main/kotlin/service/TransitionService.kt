@@ -4,7 +4,7 @@ import data.physics.KinematicsData
 import data.physics.Position
 import data.physics.Velocity
 
-class Transition {
+class TransitionService {
 
     fun updatePosition(kinematicsData: List<KinematicsData>) {
         val diffPosition = kinematicsData.map { Position(it.velocity.x, it.velocity.y) }
